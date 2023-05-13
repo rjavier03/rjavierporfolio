@@ -228,7 +228,7 @@ body{
 /* main page  */
 .content-container{
     background-color: #443e3e59;
-    height: calc(100% - 70px);
+    height: calc(100% - 55px);
     width: 100%;
     overflow:scroll;
     overflow-x:hidden;
