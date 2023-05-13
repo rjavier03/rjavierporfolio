@@ -9,6 +9,10 @@
     <link rel="stylesheet" href="css/generic-style.css">
     <link rel="stylesheet" media="screen" href="js/particles.js-master/demo/css/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://code.jquery.com/jquery-2.2.0.min.js" type="text/javascript"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.js"></script>
+
+
 </head>
 <body>
   <div class="background-container">
@@ -62,14 +66,84 @@
                     <h3 id="hide-side">HideSideBar()</h3>
                 </div>
                 <div class="main-menu">
-                    <ol>Home</ol>
-                    <ol>Background</ol>
-                    <ol>Experience</ol>
-                    <ol>Contact</ol>
+                    <a href="#home"><ol>Home</ol></a>
+                    <a href="#background"><ol>Background</ol></a>
+                    <a href="#experience"><ol>Experience</ol></a>
+                    <a href="#contact"><ol>Contact</ol>"></a>
                 </div>
             </div>
             <div class="content-container">
-    
+                <div class="content-sub-container">
+                    <div class="home" id="home">
+                        <h1 class="header-h1">Home()</h1>
+                        <div class="description">
+                            <img src="assets/hacker.png" alt="" srcset="">
+                            <p class="">
+                                I am a computer engineer graduate with a strong background in software development. Currently, I am current working as an associate software engineer, where I utilize my technical skills and knowledge to create robust and efficient software solutions. In the past, I worked as a WordPress developer, specializing in building websites and customizing themes to meet client requirements. My experience in WordPress development has equipped me with a solid foundation in web development, front-end design, and content management systems. With a passion for technology and a dedication to delivering high-quality results, I strive to continually expand my skills and contribute to the ever-evolving world of software engineering.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="skill" id="skill">
+                        <h1 class="header-h1">Skills()</h1>
+                        <div class="description">
+                            <div class="customer-logos slider">
+                                <div class="slide"><img src="assets/Csharp.png"></div>
+                                <div class="slide"><img src="assets/c++.png"></div>
+                                <div class="slide"><img src="assets/css.png"></div>
+                                <div class="slide"><img src="assets/html.png"></div>
+                                <div class="slide"><img src="assets/js.png"></div>
+                                <div class="slide"><img src="assets/mysql.png"></div>
+                                <div class="slide"><img src="assets/Photoshop_CC.png"></div>
+                                <div class="slide"><img src="assets/PHP.png"></div>
+                                <div class="slide"><img src="assets/premiere.png"></div>
+                               
+                            </div>
+                            <p class="">
+                            I am a skilled programmer proficient in  <strong>Visual Basic and C#  </strong>, with a strong command of <strong>MySQL</strong> for database management. I specialize in web development, including <strong>HTML, CSS</strong> with responsive design,<strong> WordPress customization, Shopify schema editing, JavaScript (Vanilla, jQuery, AJAX), and native PHP. Additionally</strong>, I have experience in <strong>Adobe Photoshop</strong> and <strong>Premiere</strong>, and I am well-versed in <strong>Microsoft Office</strong> applications. With expertise in hardware troubleshooting and flowchart/diagram creation, I am equipped to handle a wide range of programming and development tasks.</p>
+                        </div>
+                    </div>
+                    <div class="experience" id="experience">
+                        <h1 class="header-h1">Experience()</h1>
+                        <div class="description">
+                            <ul class="timeline">
+                                <li class="timeline-event">
+                                  <label class="timeline-event-icon"></label>
+                                  <div class="timeline-event-copy">
+                                    <p class="timeline-event-thumbnail">September 2021 - November 2021</p>
+                                    <h3>iPhiTech IT and Digital Solutions</h3>
+                                    <h4>Intern Developer</h4>
+                                    <p>Developed a whole website from scratch using wordpress and shopify with functioning pages</p>
+                                    <p>Installed and used timely plugin and use almost full potential to develope website </p>
+                                  </div>
+                                </li>
+                                <li class="timeline-event">
+                                  <label class="timeline-event-icon"></label>
+                                  <div class="timeline-event-copy">
+                                    <p class="timeline-event-thumbnail">November 2021 - August 2022 </p>
+                                    <h3>iPhiTech IT and Digital Solutions</h3>
+                                    <h4>IT Assistant/Wordpress Developer</h4>
+                                    <p>Developed, maintained and added new functionality to existing
+                                    website. Edited and customized themes and plugins inside
+                                    wordpress.</p>
+                                  </div>
+                                </li>
+                                <li class="timeline-event">
+                                  <label class="timeline-event-icon"></label>
+                                  <div class="timeline-event-copy">
+                                    <p class="timeline-event-thumbnail">August 2022 - Now </p>
+                                    <h3>B2BE</h3>
+                                    <h4>Associate Software Engineer </h4>
+                                    <p>Involvement in full software development cycle including analysis requirement, design, coding and testing;</p>
+                                    <p>Developing a good understanding of work allocated for the successful delivery within allocated time frames</p>
+                                    <p>Follow defined coding standards and development guidelines and to have input into these standards as and when required</p>
+                                    <p>Perform complete testing of developed work to reduce follow-up requests and bug fixes</p>
+                                    <p>Continually learn and enhance programming skills to improve development turn-around time frames and make a positive impact within the project environment</p>
+                                  </div>
+                                </li>
+                              </ul>  
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
      
@@ -80,7 +154,7 @@
 <script src="js/particles.js-master/particles.js"></script>
 <script src="js/particles.js-master/demo/js/app.js"></script>
 <script src="js/script.js"></script>
-
+<script src="js/jqueryscript.js"></script>
 
  
 
