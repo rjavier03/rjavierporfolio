@@ -56,7 +56,7 @@ body{
     color: white;
     /* background: black; */
     padding: 2px 15px;
-    border-left: solid green;
+    border-left: solid #2BA05D;
     font-family: var(--primary-font);
     color:white;
     font-size: 22px;
@@ -298,4 +298,38 @@ p.timeline-event-thumbnail{
     font-size: 14px;
     color:white;
     font-weight: 500;
+}
+.single-project img{
+    width : 100%;
+    height: auto;
+}
+.single-project {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height:570px;
+    border-radius: 10px;
+    /* padding: 30px; */
+    box-shadow: -2px -1px 22px -4px rgba(0,0,0,0.75);
+    -webkit-box-shadow: -2px -1px 22px -4px rgba(0,0,0,0.75);
+    -moz-box-shadow: -2px -1px 22px -4px rgba(0,0,0,0.75);
+    transition: all .5s ease;
+}
+.single-project p {
+    padding: 15px;
+    font-size: 14px;
+}
+.project-container {
+    display: flex;
+    gap: 20px;
+    /* width: 100%; */
+    justify-content: space-around;
+    margin-top: 15px;
+    flex-wrap: wrap;
+}
+.single-project:hover {
+    transition: ea;
+    transform: scale(1.1);
+    transition: all .5s ease;
 }
