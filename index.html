@@ -64,12 +64,15 @@
             <div class="header">
                 <div class="hide-side" >
                     <h3 id="hide-side">HideSideBar()</h3>
+                    <i class="fa fa-user"></i>
                 </div>
-                <div class="main-menu">
-                    <a href="#home"><ol>Home</ol></a>
-                    <a href="#background"><ol>Background</ol></a>
-                    <a href="#experience"><ol>Experience</ol></a>
-                    <a href="#contact"><ol>Contact</ol></a>
+                <i class="fa fa-bars" onclick="mobileMenu()"></i>
+                <div class="main-menu" id="main-menu">
+                    <i class="fa-window-close" aria-hidden="true" onclick="mobileMenu()"></i>
+                    <a href="#home" onclick="hideMenu()"><ol>Home</ol></a>
+                    <a href="#background" onclick="hideMenu()"><ol>Background</ol></a>
+                    <a href="#experience" onclick="hideMenu()"><ol>Experience</ol></a>
+                    <a href="#contact" onclick="hideMenu()"><ol>Contact</ol></a>
                 </div>
             </div>
             <div class="content-container">

@@ -248,7 +248,7 @@ body{
     gap: 50px;
 }
 .description p {
-    width: 100%;
+    width: 85%;
     font-family: var(--secondary-font);
     color: white;
     font-size: 16px;
@@ -259,7 +259,7 @@ body{
     padding: 50px;
 }
 .description img{
-    width:200px;
+    width:15%;
 }
 .skill h1{
     text-align: right;
@@ -333,3 +333,119 @@ p.timeline-event-thumbnail{
     transform: scale(1.1);
     transition: all .5s ease;
 }
+i.fa.fa-user {
+    color: white;
+    font-size: 50px;
+    display: none;
+}
+i.fa.fa-bars {
+    font-size: 30px;
+    color: white;
+    display: none;
+}
+i.fa.fa-window-close {
+    font-size: 50px;
+    color: white;
+    display: none;
+}
+
+
+
+
+
+/* Mobile css */
+@media only screen and (max-width: 425px) {
+    div#side-bar {
+        display: none;
+    }
+    .container{
+        width:100%;
+        margin-left:unset;
+        height: 100vh;
+    }
+    .content-sub-container{
+        padding:20px;
+    }
+    .background-container {
+        overflow: hidden;
+    }
+    .main-container{
+        padding: unset;
+    }
+    .description img {
+        width: 70%;
+    }
+    .description p{
+        width:100%;
+    }
+    .description{
+        flex-direction: column;
+        gap: 20px;
+    }
+    .description .customer-logos{
+        width: 100%;
+    }
+    .slick-list{
+        padding-left:20%     !important;
+    }
+    .header-h1{
+        font-size: 50px;
+    }
+    .single-project {
+        width: 100%;
+    }
+    .single-project img{
+        width:100%;
+    }
+    /* .main-menu{
+        display: none;
+    } */
+    .header{
+        flex-direction: row-reverse;
+   
+    }
+    i.fa.fa-bars {
+        display:block;
+    }
+    .main-menu{
+        display: none;
+    }
+   
+    .main-menu{
+        transition: all .5s ease;
+        top:-1000px;
+        position: fixed;
+        height: 100vh;
+        width: 100%;
+        z-index: 100;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        align-content: center;
+        justify-content: center;
+        background: #262628f0;
+        
+    }
+    .main-menu.openMenu {
+        transition: all .5s ease;
+      
+        top:0;
+    }
+    .main-menu.openMenu ol {
+        border: unset;
+        padding: unset;
+        font-size: 50px;
+    }
+    .main-menu.openMenu i.fa.fa-window-close {
+        display: block;
+        position: absolute;
+        top: 50px;
+        right: 50px;
+    }
+    .hide-side {
+        padding: 10px;
+    }
+    i.fa.fa-bars {
+        padding: 15px 40px;
+    }
+  }

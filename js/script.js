@@ -22,3 +22,11 @@ hide.addEventListener("click", function() {
   
 
   });
+var sidebar = document.getElementById("main-menu")
+function mobileMenu(){
+    sidebar.classList.toggle("openMenu")
+
+}
+function hideMenu(){
+    sidebar.classList.remove("openMenu")
+}
