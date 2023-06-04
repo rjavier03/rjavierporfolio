@@ -405,6 +405,7 @@ i.fa.fa-window-close {
     } */
     .header{
         flex-direction: row-reverse;
+        position: sticky;
    
     }
     i.fa.fa-bars {
@@ -458,6 +459,7 @@ i.fa.fa-window-close {
         height: 100%;
         background-color: #040404eb;
         right:0;
+        z-index: 9999;
     }
     .side-profile i.fa.fa-window-close {
         position: absolute;

@@ -140,6 +140,7 @@ body {
   margin: 4em auto;
   position: relative;
   max-width: 46em;
+  z-index:1;
 }
 .timeline:before {
   background-color: black;
