@@ -63,6 +63,9 @@ body{
     cursor: pointer;
     
 }
+a:hover h3{
+    color:#2BA05D;
+}
 
 .header {
     display: flex;
@@ -351,11 +354,53 @@ i.fa.fa-window-close {
     color: white;
     display: none;
 }
+.contact h3{
+    font-family: var(--secondary-font);
+    font-size: 16px;
+    color:white; 
+}
 
+.tool-tip{
+    font-weight:800;
+    color:#2BA05D;
+    cursor: pointer;
+    position: relative;
+    text-decoration: underline;
+}
+.tool-tip::before , .tool-tip::after{
+    position: absolute;
+    content: '';
+    transform: all 0.4s ease;
+    opacity: 0;
+    pointer-events: none;
+}
+.tool-tip::before{
+    border-width: 10px 8px 0 8px;
+    border-style: solid;
+    border-color: #000000e5 transparent transparent;
+    top : -15px;
+    transform: translate(20px);
+}
+.tool-tip::after{
+    content: attr(data-tooltip);
+    background:#000000e5;
+    width: 160px;
+    height: 40px;
+    font-size: 14px;
+    font-weight: 300;
+    top: -75px;
+    left: -10px;
+    padding: 10px;
+    border-radius: 10px;
+    transform: translateY(20px);
 
+}
+.tool-tip:hover:before , .tool-tip:hover:after{
+    transform: translateY(-2px);
+    opacity: 1;
+     
 
-
-
+}
 /* Mobile css */
 @media only screen and (max-width: 425px) {
     div#side-bar {
@@ -470,3 +515,4 @@ i.fa.fa-window-close {
 
 
   }
+
