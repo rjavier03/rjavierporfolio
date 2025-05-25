@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -14,232 +15,336 @@
 
 
 </head>
+
 <body>
-  <div class="background-container">
-    <div id="particles-js"></div>
-    <div class="main-container">
-        <div class="side-profile" id="side-bar">
-            <i class="fa fa-window-close" aria-hidden="true" onclick="hideSideBar()"></i>
-            <div class="profile-container">
-                <div class="profile">
-                    <img src="assets/profile_new.jpg" alt="">
-                </div>
-                <div class="name-title">
-                    <h2 class="full-name">Ronald D. Javier</h2>
-                    <h3 class="title">< /Developer> </h3>
-                </div>
-                <div class="resume">
-                    <div class="download-button">
-                        <div class="wrapper">
-                            <div class="link_wrapper">
-                              <a href="assets/RJavier.pdf" download="RonaldJavier_resume">DownloadResumé()</a>
-                              <div class="icon">
-                                <svg fill="#000000" viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <title>download-window</title> <path d="M0 26.016q0 2.496 1.76 4.224t4.256 1.76h4.992l-2.496-4h-2.496q-0.832 0-1.44-0.576t-0.576-1.408v-14.016h24v14.016q0 0.832-0.576 1.408t-1.408 0.576h-2.528l-2.496 4h5.024q2.464 0 4.224-1.76t1.76-4.224v-20q0-2.496-1.76-4.256t-4.224-1.76h-20q-2.496 0-4.256 1.76t-1.76 4.256v20zM4 10.016v-4q0-0.832 0.576-1.408t1.44-0.608h20q0.8 0 1.408 0.608t0.576 1.408v4h-24zM6.016 8h1.984v-1.984h-1.984v1.984zM10.016 24l5.984 8 6.016-8h-4v-8h-4v8h-4zM10.016 8h1.984v-1.984h-1.984v1.984zM14.016 8h12v-1.984h-12v1.984z"></path> </g></svg>
-                              </div>
-                            </div>                        
-                          </div>
-                    </div>
-                </div>
-                <div class="contact-socials">
-                    <div class="social-container">
-                        <i class="fa fa-globe" aria-hidden="true"></i>
-                        <a href="https://rjavier03.github.io/rjavierporfolio/"><h3>rjavierporfolio</h3></a>
-                    </div>
-                    <div class="social-container">
-                        <i class="fa fa-linkedin" aria-hidden="true"></i>
-                        <a href="https://www.linkedin.com/in/ronald-javier-b12594225/"><h3>ronald-javier-b12594225/</h3></a>
-                    </div>
-                    <div class="social-container">
-                        <i class="fa fa-envelope" aria-hidden="true"></i>
-                        <a href ="mailto:rdjavier0303@gmail.com"><h3>rdjavier0303@gmail.com</h3></a>
-                    </div>
-                    <div class="social-container">
-                        <i class="fa fa-phone" aria-hidden="true"></i>
-                        <a href="tel:+639562783687"><h3>+6395 6278 3687</h3></a>
-                    </div>
+    <div class="background-container">
+        <div id="particles-js"></div>
+        <div class="panel-container">
+            <div class="main-container">
+                <div class="side-profile" id="side-bar">
+                    <i class="fa fa-window-close" aria-hidden="true" onclick="hideSideBar()" id="mobile-sidebar"></i>
+                    <div class="profile-container">
+                        <div class="profile">
+                            <img src="assets/profile_new.jpg" alt="">
+                        </div>
+                        <div class="name-title">
+                            <h2 class="full-name">Ronald D. Javier</h2>
+                            <h3 class="title">
+                                < /Developer>
+                            </h3>
+                        </div>
+                        <div class="resume">
+                            <div class="download-button">
+                                <div class="wrapper">
+                                    <div class="link_wrapper">
+                                        <a href="assets/RonaldJavier.pdf"
+                                            download="RonaldJavier_resume">DownloadResumé()</a>
+                                        <div class="icon">
+                                            <svg fill="#000000" viewBox="0 0 32 32" version="1.1"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                                                <g id="SVGRepo_tracerCarrier" stroke-linecap="round"
+                                                    stroke-linejoin="round"></g>
+                                                <g id="SVGRepo_iconCarrier">
+                                                    <title>download-window</title>
+                                                    <path
+                                                        d="M0 26.016q0 2.496 1.76 4.224t4.256 1.76h4.992l-2.496-4h-2.496q-0.832 0-1.44-0.576t-0.576-1.408v-14.016h24v14.016q0 0.832-0.576 1.408t-1.408 0.576h-2.528l-2.496 4h5.024q2.464 0 4.224-1.76t1.76-4.224v-20q0-2.496-1.76-4.256t-4.224-1.76h-20q-2.496 0-4.256 1.76t-1.76 4.256v20zM4 10.016v-4q0-0.832 0.576-1.408t1.44-0.608h20q0.8 0 1.408 0.608t0.576 1.408v4h-24zM6.016 8h1.984v-1.984h-1.984v1.984zM10.016 24l5.984 8 6.016-8h-4v-8h-4v8h-4zM10.016 8h1.984v-1.984h-1.984v1.984zM14.016 8h12v-1.984h-12v1.984z">
+                                                    </path>
+                                                </g>
+                                            </svg>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="contact-socials">
+                            <div class="social-container">
+                                <i class="fa fa-globe" aria-hidden="true"></i>
+                                <a href="https://rjavier03.github.io/rjavierporfolio/">
+                                    <h3>rjavierporfolio</h3>
+                                </a>
+                            </div>
+                            <div class="social-container">
+                                <i class="fa fa-linkedin" aria-hidden="true"></i>
+                                <a href="https://www.linkedin.com/in/ronald-javier-b12594225/">
+                                    <h3>ronald-javier-b12594225/</h3>
+                                </a>
+                            </div>
+                            <div class="social-container">
+                                <i class="fa fa-envelope" aria-hidden="true"></i>
+                                <a href="mailto:rdjavier0303@gmail.com">
+                                    <h3>rdjavier0303@gmail.com</h3>
+                                </a>
+                            </div>
 
-                </div>
-            </div>
-        </div>
-        <div class="container" id="content-container">
-            <div class="header">
-                <div class="hide-side" >
-                    <h3 id="hide-side">HideSideBar()</h3>
-                    <i class="fa fa-user"></i>
-                </div>
-                <i class="fa fa-bars" onclick="mobileMenu()"></i>
-                <div class="main-menu" id="main-menu">
-                    <i class="fa fa-window-close" aria-hidden="true" onclick="mobileMenu()"></i>
-                    <a href="#home" onclick="hideMenu()"><ol>Home</ol></a>
-                    <a href="#skill" onclick="hideMenu()"><ol>Skills</ol></a>
-                    <a href="#experience" onclick="hideMenu()"><ol>Experience</ol></a>
-                    <a href="#contact" onclick="hideMenu()"><ol>Contact</ol></a>
-                </div>
-            </div>
-            <div class="content-container">
-                <div class="content-sub-container">
-                    <div class="home" id="home">
-                        <h1 class="header-h1">Home()</h1>
-                        <div class="description">
-                            <img src="assets/hacker.png" alt="" srcset="">
-                            <p class="">
-                                I am a computer engineer graduate with a span background in software development. Currently, I am current working as an associate software engineer, where I utilize my technical skills and knowledge to create robust and efficient software solutions. In the past, I worked as a WordPress developer, specializing in building websites and customizing themes to meet client requirements. My experience in WordPress development has equipped me with a solid foundation in web development, front-end design, and content management systems. With a passion for technology and a dedication to delivering high-quality results, I strive to continually expand my skills and contribute to the ever-evolving world of software engineering.
-                            </p>
-                        </div>
-                    </div>
-                    <div class="skill" id="skill">
-                        <h1 class="header-h1">Skills()</h1>
-                        <div class="description">
-                            <div class="customer-logos slider">
-                                <div class="slide"><img src="assets/Csharp.png"></div>
-                                <div class="slide"><img src="assets/c++.png"></div>
-                                <div class="slide"><img src="assets/css.png"></div>
-                                <div class="slide"><img src="assets/html.png"></div>
-                                <div class="slide"><img src="assets/js.png"></div>
-                                <div class="slide"><img src="assets/mysql.png"></div>
-                                <div class="slide"><img src="assets/Photoshop_CC.png"></div>
-                                <div class="slide"><img src="assets/PHP.png"></div>
-                                <div class="slide"><img src="assets/premiere.png"></div>
-                               
+                            <div class="social-container">
+                                <i class="fa fa-phone" aria-hidden="true"></i>
+                                <a href="tel:+639562783687">
+                                    <h3>+6395 6278 3687</h3>
+                                </a>
                             </div>
-                            <p class="">
-                            I am a skilled programmer proficient in  
-                            <span class="tool-tip" data-height="100px" data-tooltip="with 3 year of experience">Visual Basic</span> 
-                            and
-                            <span class="tool-tip" data-tooltip="C#"> C#  </span>, 
-                            with a span command of 
-                            <span class="tool-tip" data-tooltip="MySQL">MySQL</span> 
-                            for database management. I specialize in web development, including 
-                            <span class="tool-tip" data-tooltip="HTML">HTML</span>
-                            ,
-                            <span class="tool-tip" data-tooltip="CSS"> CSS</span>
-                            with responsive design,
-                            <span class="tool-tip" data-tooltip="WordPress"> WordPress customization</span>
-                            , 
-                            <span class="tool-tip" data-tooltip="Shopify">Shopify schema editing</span>
-                            , 
-                            <span class="tool-tip" data-tooltip="Javascript">JavaScript (Vanilla, jQuery, AJAX)</span>
-                            and
-                            <span class="tool-tip" data-tooltip="PHP">native PHP</span>
-                            . Additionally, I have experience in 
-                            <span class="tool-tip" data-tooltip="Photoshop">Adobe Photoshop</span> 
-                            and 
-                            <span class="tool-tip" data-tooltip="Premiere">Premiere</span>
-                            , and I am well-versed in 
-                            <span class="tool-tip" data-tooltip="Office">Microsoft Office</span> 
-                            applications. With expertise in hardware troubleshooting and flowchart/diagram creation, I am equipped to handle a wide range of programming and development tasks.</p>
+
                         </div>
                     </div>
-                    <div class="experience" id="experience">
-                        <h1 class="header-h1">Experience()</h1>
-                        <div class="description">
-                            <ul class="timeline">
-                                <li class="timeline-event">
-                                  <label class="timeline-event-icon"></label>
-                                  <div class="timeline-event-copy">
-                                    <p class="timeline-event-thumbnail">August 2022 - Now </p>
-                                    <h3>B2BE</h3>
-                                    <h4>Associate Software Engineer </h4>
-                                    <p>Acted as secondary technical support</p>
-                                    <p>Developed programs for text format translation</p>
-                                    <p>Acted also as code reviewer and exporter of the code use in the PROD enviroment which that sure every code follows company stands</p>
-                                    <p>Perform complete testing of developed work to reduce follow-up requests and bug fixes</p>
-                                    
-                                  </div>
-                               
-                                </li>
-                                <li class="timeline-event">
-                                  <label class="timeline-event-icon"></label>
-                                  <div class="timeline-event-copy">
-                                    <p class="timeline-event-thumbnail">November 2021 - August 2022 </p>
-                                    <h3>iPhiTech IT and Digital Solutions</h3>
-                                    <h4>IT Assistant/Wordpress Developer</h4>
-                                    <p>Developed, maintained and added new functionality to existing
-                                    website. Edited and customized themes and plugins inside
-                                    wordpress.</p>
-                                  </div>
-                                </li>
-                                <li class="timeline-event">
-                                  <label class="timeline-event-icon"></label>
-                                  <div class="timeline-event-copy">
-                                    <p class="timeline-event-thumbnail">September 2021 - November 2021</p>
-                                    <h3>iPhiTech IT and Digital Solutions</h3>
-                                    <h4>Intern Developer</h4>
-                                    <p>Developed a whole website from scratch using wordpress and shopify with functioning pages</p>
-                                    <p>Installed and used timely plugin and use almost full potential to develope website </p>
-                                  </div>
-                                </li>
-                              </ul>  
+                </div>
+                <div class="container" id="content-container">
+                    <div class="header">
+                        <div class="hide-side">
+                            <h3 id="hide-side">ViewSideBar()</h3>
+                            <i class="fa fa-user"></i>
+                        </div>
+                        <i class="fa fa-bars" onclick="mobileMenu()"></i>
+                        <div class="main-menu" id="main-menu">
+                            <i class="fa fa-window-close" aria-hidden="true" onclick="mobileMenu()"></i>
+                            <a href="#home" onclick="hideMenu()">
+                                <ol>Home</ol>
+                            </a>
+                            <a href="#skill" onclick="hideMenu()">
+                                <ol>Skills</ol>
+                            </a>
+                            <a href="#experience" onclick="hideMenu()">
+                                <ol>Experience</ol>
+                            </a>
+                            <a href="#contact" onclick="hideMenu()">
+                                <ol>Contact</ol>
+                            </a>
                         </div>
                     </div>
-                    <div class="projects" id="projects">
-                        <h1 class="header-h1">Projects()</h1>
-                        <div class="description">
-                            <div class="project-container">
-                                <div class="single-project">
-                                    <a href="assets/DYCI_CCS.png" target="_blank"><img src="assets/DYCI_CCS.png" alt="">
-                                        <p>A web-based clearance system for the Junior Highschool Students of
-                                            Dr. Yanga’s College Inc.It has a functionality to add delete update student,faculties,subject and requirements. I can also provide accurate data or statistics that users needed, like how many students are completed in their clearance what is the section are the most number of completed the clearance, How many subject that a faculty handles etc </p>
-                                        <p class="tools">Tools used: HTML, CCS, JavaScript, PHP, MySQL </p>
-                                    </a>
-                                </div>
-                                <div class="single-project">
-                                    <a href="assets/the_fon.png" target="_blank"><img src="assets/the_fon.png" alt="">
-                                        <p>The Fon is desktop based POS system for a milktea shop. The function consist of taking orders, adding new products, disabling non available product , user management , data and statistics of sale for monitor</p>
-                                        <p class="tools">Tools used: Mysql, C#</p>
-                                    </a>
-                                </div>
-                                <div class="single-project">
-                                    <a href="assets/no-image.png" target="_blank"><img src="assets/no-image.png" alt="">
-                                        <p>DYCI Scholarship System; is a desktop based application that manage the internal and external scholarship of DYCI College. The functionality consist of add edit delete of students, Adding scholarship for student, Generating reports for how many scholarship per college or home many student has this type of scholarship etc. Has an archive system when a new school year start where record were reset and store in the backup database</p>
-                                        <p class="tools">Tools used:  Mysql, C# </p>
-                                    </a>
-                                </div>
-                                <div class="single-project">
-                                    <a href="https://dev-empanada-bulacan.pantheonsite.io/" target="_blank"><img src="assets/empanada.png" alt="">
-                                        <p>A website that built with a content management system(WordPress) that promote the product Empanada of the Empanada Bulacan. The website consist of different section which is both mobile and desktop responsive and contents that most website has</p>
-                                        <p class="tools">Tools used:Wordpress, Javascript , Elementor , CSS </p>
-                                    </a>
-                                </div>
-                                <div class="single-project">
-                                    <a href="http://javtech.x10.bz/wp/" target="_blank"><img src="assets/axiom.png" alt="">
-                                        <p>Axiom Web is a website that I built when I want to try freelancing. This website consist of the four functioning webpage like home, contact us , about and services. Axiom web is based on moderm design of the website  that follows the standard of a good website. Uniform on font style and font color. Functioning contact us form that send an email to the receiver and a lot more.  </p>
-                                        <p class="tools">Tools used:Wordpress, Javascript , Elementor , CSS </p>
-                                    </a>
-                                </div>
-                                <div class="single-project">
-                                    <a href="http://javtech.x10.bz/wp/" target="_blank"><img src="assets/no-image.png" alt="">
-                                        <p>HEALTH MONITORING SMART-WATCH; A web-based monitoring system with an Arduino based sensors that
-                                            used to detect the vital sign of an individual and log the readings in
-                                            the system
-                                            </p>
-                                        <p class="tools">Tools used: HTML, CCS, JavaScript, PHP, MySQL, Arduino IDE</p>
-                                    </a>
+                    <div class="content-container">
+                        <div class="content-sub-container">
+                            <div class="home" id="home">
+                                <h1 class="header-h1">About Me</h1>
+                                <div class="description">
+                                    <img src="assets/hacker.png" alt="" srcset="">
+                                    <p class="">
+                                        I am a computer engineer graduate with a span background in software
+                                        development.
+                                        Currently, I am current working as an associate software engineer, where I
+                                        utilize
+                                        my technical skills and knowledge to create robust and efficient software
+                                        solutions.
+                                        In the past, I worked as a WordPress developer, specializing in building
+                                        websites
+                                        and customizing themes to meet client requirements. My experience in WordPress
+                                        development has equipped me with a solid foundation in web development,
+                                        front-end
+                                        design, and content management systems. With a passion for technology and a
+                                        dedication to delivering high-quality results, I strive to continually expand my
+                                        skills and contribute to the ever-evolving world of software engineering.
+                                    </p>
                                 </div>
                             </div>
-                        </div>
-                    </div>
-                    <div class="contact" id="contact">
-                        <h1 class="header-h1">ContactMe()</h1>
-                        <div class="description">
-                            <h3>You may reach me with the details in the sidebar. All the details must be there. Thank you</h3>
+                            <div class="skill" id="skill">
+                                <h1 class="header-h1">Skills()</h1>
+                                <div class="description">
+                                    <div class="customer-logos slider">
+                                        <div class="slide"><img src="assets/Csharp.png"></div>
+                                        <div class="slide"><img src="assets/c++.png"></div>
+                                        <div class="slide"><img src="assets/css.png"></div>
+                                        <div class="slide"><img src="assets/html.png"></div>
+                                        <div class="slide"><img src="assets/js.png"></div>
+                                        <div class="slide"><img src="assets/mysql.png"></div>
+                                        <div class="slide"><img src="assets/Photoshop_CC.png"></div>
+                                        <div class="slide"><img src="assets/PHP.png"></div>
+                                        <div class="slide"><img src="assets/premiere.png"></div>
+
+                                    </div>
+                                    <p class="">
+                                        I am a skilled programmer proficient in
+                                        <span class="tool-tip" data-height="100px"
+                                            data-tooltip="with 3 year of experience">Visual Basic</span>
+                                        and
+                                        <span class="tool-tip" data-tooltip="C#"> C# </span>,
+                                        with a span command of
+                                        <span class="tool-tip" data-tooltip="MySQL">MySQL</span>
+                                        for database management. I specialize in web development, including
+                                        <span class="tool-tip" data-tooltip="HTML">HTML</span>
+                                        ,
+                                        <span class="tool-tip" data-tooltip="CSS"> CSS</span>
+                                        with responsive design,
+                                        <span class="tool-tip" data-tooltip="WordPress"> WordPress customization</span>
+                                        ,
+                                        <span class="tool-tip" data-tooltip="Shopify">Shopify schema editing</span>
+                                        ,
+                                        <span class="tool-tip" data-tooltip="Javascript">JavaScript (Vanilla, jQuery,
+                                            AJAX)</span>
+                                        and
+                                        <span class="tool-tip" data-tooltip="PHP">native PHP</span>
+                                        . Additionally, I have experience in
+                                        <span class="tool-tip" data-tooltip="Photoshop">Adobe Photoshop</span>
+                                        and
+                                        <span class="tool-tip" data-tooltip="Premiere">Premiere</span>
+                                        , and I am well-versed in
+                                        <span class="tool-tip" data-tooltip="Office">Microsoft Office</span>
+                                        applications. With expertise in hardware troubleshooting and flowchart/diagram
+                                        creation, I am equipped to handle a wide range of programming and development
+                                        tasks.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="experience" id="experience">
+                                <h1 class="header-h1">Experience()</h1>
+                                <div class="description">
+                                    <ul class="timeline">
+                                        <li class="timeline-event">
+                                            <label class="timeline-event-icon"></label>
+                                            <div class="timeline-event-copy">
+                                                <p class="timeline-event-thumbnail">August 2022 - Now </p>
+                                                <h3>B2BE</h3>
+                                                <h4>Associate Software Engineer </h4>
+                                                <p>Acted as secondary technical support</p>
+                                                <p>Developed programs for text format translation</p>
+                                                <p>Acted also as code reviewer and exporter of the code use in the PROD
+                                                    enviroment which that sure every code follows company stands</p>
+                                                <p>Perform complete testing of developed work to reduce follow-up
+                                                    requests
+                                                    and bug fixes</p>
+
+                                            </div>
+
+                                        </li>
+                                        <li class="timeline-event">
+                                            <label class="timeline-event-icon"></label>
+                                            <div class="timeline-event-copy">
+                                                <p class="timeline-event-thumbnail">November 2021 - August 2022 </p>
+                                                <h3>iPhiTech IT and Digital Solutions</h3>
+                                                <h4>IT Assistant/Wordpress Developer</h4>
+                                                <p>Developed, maintained and added new functionality to existing
+                                                    website. Edited and customized themes and plugins inside
+                                                    wordpress.</p>
+                                            </div>
+                                        </li>
+                                        <li class="timeline-event">
+                                            <label class="timeline-event-icon"></label>
+                                            <div class="timeline-event-copy">
+                                                <p class="timeline-event-thumbnail">September 2021 - November 2021</p>
+                                                <h3>iPhiTech IT and Digital Solutions</h3>
+                                                <h4>Intern Developer</h4>
+                                                <p>Developed a whole website from scratch using wordpress and shopify
+                                                    with
+                                                    functioning pages</p>
+                                                <p>Installed and used timely plugin and use almost full potential to
+                                                    develope website </p>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="projects" id="projects">
+                                <h1 class="header-h1">Projects()</h1>
+                                <div class="description">
+                                    <div class="project-container">
+                                        <div class="single-project">
+                                            <a href="assets/DYCI_CCS.png" target="_blank"><img src="assets/DYCI_CCS.png"
+                                                    alt="">
+                                                <p>A web-based clearance system for the Junior Highschool Students of
+                                                    Dr. Yanga’s College Inc.It has a functionality to add delete update
+                                                    student,faculties,subject and requirements. I can also provide
+                                                    accurate
+                                                    data or statistics that users needed, like how many students are
+                                                    completed in their clearance what is the section are the most number
+                                                    of
+                                                    completed the clearance, How many subject that a faculty handles etc
+                                                </p>
+                                                <p class="tools">Tools used: HTML, CCS, JavaScript, PHP, MySQL </p>
+                                            </a>
+                                        </div>
+                                        <div class="single-project">
+                                            <a href="assets/the_fon.png" target="_blank"><img src="assets/the_fon.png"
+                                                    alt="">
+                                                <p>The Fon is desktop based POS system for a milktea shop. The function
+                                                    consist of taking orders, adding new products, disabling non
+                                                    available
+                                                    product , user management , data and statistics of sale for monitor
+                                                </p>
+                                                <p class="tools">Tools used: Mysql, C#</p>
+                                            </a>
+                                        </div>
+                                        <div class="single-project">
+                                            <a href="assets/no-image.png" target="_blank"><img src="assets/no-image.png"
+                                                    alt="">
+                                                <p>DYCI Scholarship System; is a desktop based application that manage
+                                                    the
+                                                    internal and external scholarship of DYCI College. The functionality
+                                                    consist of add edit delete of students, Adding scholarship for
+                                                    student,
+                                                    Generating reports for how many scholarship per college or home many
+                                                    student has this type of scholarship etc. Has an archive system when
+                                                    a
+                                                    new school year start where record were reset and store in the
+                                                    backup
+                                                    database</p>
+                                                <p class="tools">Tools used: Mysql, C# </p>
+                                            </a>
+                                        </div>
+                                        <div class="single-project">
+                                            <a href="https://dev-empanada-bulacan.pantheonsite.io/" target="_blank"><img
+                                                    src="assets/empanada.png" alt="">
+                                                <p>A website that built with a content management system(WordPress) that
+                                                    promote the product Empanada of the Empanada Bulacan. The website
+                                                    consist of different section which is both mobile and desktop
+                                                    responsive
+                                                    and contents that most website has</p>
+                                                <p class="tools">Tools used:Wordpress, Javascript , Elementor , CSS </p>
+                                            </a>
+                                        </div>
+                                        <div class="single-project">
+                                            <a href="http://javtech.x10.bz/wp/" target="_blank"><img
+                                                    src="assets/axiom.png" alt="">
+                                                <p>Axiom Web is a website that I built when I want to try freelancing.
+                                                    This
+                                                    website consist of the four functioning webpage like home, contact
+                                                    us ,
+                                                    about and services. Axiom web is based on moderm design of the
+                                                    website
+                                                    that follows the standard of a good website. Uniform on font style
+                                                    and
+                                                    font color. Functioning contact us form that send an email to the
+                                                    receiver and a lot more. </p>
+                                                <p class="tools">Tools used:Wordpress, Javascript , Elementor , CSS </p>
+                                            </a>
+                                        </div>
+                                        <div class="single-project">
+                                            <a href="http://javtech.x10.bz/wp/" target="_blank"><img
+                                                    src="assets/no-image.png" alt="">
+                                                <p>HEALTH MONITORING SMART-WATCH; A web-based monitoring system with an
+                                                    Arduino based sensors that
+                                                    used to detect the vital sign of an individual and log the readings
+                                                    in
+                                                    the system
+                                                </p>
+                                                <p class="tools">Tools used: HTML, CCS, JavaScript, PHP, MySQL, Arduino
+                                                    IDE
+                                                </p>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="contact" id="contact">
+                                <h1 class="header-h1">ContactMe()</h1>
+                                <div class="description">
+                                    <h3>You may reach me with the details in the sidebar. All the details must be there.
+                                        Thank you</h3>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
+
             </div>
         </div>
-     
+
     </div>
-   
-  </div>
 
-<script src="js/particles.js-master/particles.js"></script>
-<script src="js/particles.js-master/demo/js/app.js"></script>
-<script src="js/script.js"></script>
-<script src="js/jqueryscript.js"></script>
+    <script src="js/particles.js-master/particles.js"></script>
+    <script src="js/particles.js-master/demo/js/app.js"></script>
+    <script src="js/script.js"></script>
+    <script src="js/jqueryscript.js"></script>
 
- 
 
-<script src="js/particles.js-master/demo/particles.js"></script>
+
+    <script src="js/particles.js-master/demo/particles.js"></script>
 </body>
+
 </html>
