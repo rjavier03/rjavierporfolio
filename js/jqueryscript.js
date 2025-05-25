@@ -1,16 +1,16 @@
-$(document).ready(function(){
+$(document).ready(function () {
     $('.customer-logos').slick({
-        slidesToShow: 2,
+        slidesToShow: 1,
         slidesToScroll: 1,
         autoplay: true,
-        autoplaySpeed: 1000,
+        autoplaySpeed: 5000,
         arrows: false,
         dots: false,
         pauseOnHover: false,
         responsive: [{
             breakpoint: 768,
             settings: {
-                slidesToShow: 4
+                slidesToShow: 1
             }
         }, {
             breakpoint: 425,
