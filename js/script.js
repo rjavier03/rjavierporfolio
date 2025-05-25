@@ -35,16 +35,39 @@ hide.addEventListener("click", function () {
 
 
 });
-var sidebar = document.getElementById("mobileMenu")
+var sidebar = document.getElementById("mobile-menu")
 function mobileMenu() {
     sidebar.classList.toggle("openMenu")
 
 }
 function hideMenu() {
     sidebar.classList.remove("openMenu")
-    mobileContainer = document.getElementsByClassName("content-sub-container")
 }
 function hideSideBar() {
     var mainSidebar = document.getElementById("side-bar")
     mainSidebar.classList.remove("displaySide")
 }
+
+emailjs.init('qCfbYORIGMdCq2HAl');
+
+// Reference the form
+const form = document.getElementById('contact-form');
+
+form.addEventListener('submit', function (e) {
+    e.preventDefault(); // Prevent default form submission
+
+    // Send email using EmailJS
+    emailjs.send('service_4g3puod', 'template_zhugs6c', {
+        from_name: form.from_name.value,
+        to_email: 'rdjavier0303@gmail.com',
+        email: form.email.value,
+        message: form.message.value
+    }).then(function (response) {
+        alert('Email sent successfully!');
+        console.log('SUCCESS!', response.status, response.text);
+        form.reset(); // Optional: Clear the form
+    }, function (error) {
+        alert('Failed to send email. Please try again.');
+        console.error('FAILED...', error);
+    });
+});

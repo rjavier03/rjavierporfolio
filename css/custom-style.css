@@ -8,9 +8,9 @@
 
 *,
 html {
-
     scroll-behavior: smooth !important;
 }
+
 
 body {
     overflow: hidden;
@@ -29,6 +29,7 @@ body {
     gap: 20px;
     position: relative;
     width: 70%;
+    position: fixed
 }
 
 
@@ -53,6 +54,10 @@ body {
 
 #particles-js {
     position: fixed;
+}
+
+:target {
+    margin-top:
 }
 
 .main-menu {
@@ -484,6 +489,60 @@ i.fa.fa-window-close {
     display: none;
 }
 
+form#contact-form {
+    width: 100%;
+    font-size: 12px;
+    color: white;
+}
+
+.contact-form {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 24px 20px;
+    background: #3d3d3d71;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.07);
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+}
+
+.contact-form label {
+    font-weight: 500;
+    margin-bottom: 4px;
+    font-family: var(--primary-font);
+
+}
+
+.contact-input,
+.contact-textarea {
+    width: 100%;
+    padding: 8px 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 1rem;
+    resize: vertical;
+}
+
+.contact-textarea {
+    min-height: 80px;
+    max-height: 200px;
+}
+
+.contact-submit {
+    background: #222;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    padding: 10px 0;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.contact-submit:hover {
+    background: #444;
+}
+
 /* Mobile css */
 @media only screen and (max-width: 425px) {
     div#side-bar {
@@ -506,7 +565,8 @@ i.fa.fa-window-close {
 
     .main-container {
         padding: unset;
-        width: 100%
+        width: 100%;
+
     }
 
     .description img {
@@ -548,7 +608,6 @@ i.fa.fa-window-close {
     .header {
         flex-direction: row-reverse;
         position: sticky;
-        top: 0;
 
     }
 
@@ -566,6 +625,7 @@ i.fa.fa-window-close {
         position: fixed;
         height: 100vh;
         width: 100%;
+        z-index: 100;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -575,10 +635,10 @@ i.fa.fa-window-close {
 
     }
 
-    .mobile-menu.openMenu {
+    .main-menu.openMenu {
         transition: all .5s ease;
         top: 0;
-        z-index: 9999 !important;
+        z-index: 100;
     }
 
     .main-menu.openMenu ol {
@@ -611,10 +671,7 @@ i.fa.fa-window-close {
         right: 0;
         z-index: 9999;
         display: block !important;
-        top: 0;
     }
-
-
 
     .side-profile i.fa.fa-window-close {
         position: absolute;
@@ -624,8 +681,8 @@ i.fa.fa-window-close {
     }
 
     .side-profile {
-        position: absolute;
-        top: -100px;
+        right: -9999;
+        position: absolute
     }
 
     .panel-container {
@@ -636,17 +693,11 @@ i.fa.fa-window-close {
         padding: 0px;
     }
 
-    .mobile-menu {
-        position: fixed;
-        height: 100vh;
-        width: 100%;
-        display: flex;
-        top: -9999px;
-        flex-direction: column;
-        align-items: center;
-        align-content: center;
-        justify-content: center;
-        background: #262628f0;
+    .web-menu {
+        display: none;
     }
 
+    .content-container {
+        scrollbar-width: none;
+    }
 }
