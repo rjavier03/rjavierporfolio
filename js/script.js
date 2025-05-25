@@ -35,7 +35,7 @@ hide.addEventListener("click", function () {
 
 
 });
-var sidebar = document.getElementById("main-menu")
+var sidebar = document.getElementById("mobile-menu")
 function mobileMenu() {
     sidebar.classList.toggle("openMenu")
 

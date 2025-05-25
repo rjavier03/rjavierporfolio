@@ -8,9 +8,9 @@
 
 *,
 html {
-
     scroll-behavior: smooth !important;
 }
+
 
 body {
     overflow: hidden;
@@ -29,6 +29,7 @@ body {
     gap: 20px;
     position: relative;
     width: 70%;
+    position: fixed
 }
 
 
@@ -53,6 +54,10 @@ body {
 
 #particles-js {
     position: fixed;
+}
+
+:target {
+    margin-top:
 }
 
 .main-menu {
@@ -480,6 +485,10 @@ i.fa.fa-window-close {
     display: block;
 }
 
+.mobile-menu {
+    display: none;
+}
+
 /* Mobile css */
 @media only screen and (max-width: 425px) {
     div#side-bar {
@@ -502,7 +511,8 @@ i.fa.fa-window-close {
 
     .main-container {
         padding: unset;
-        width: 100%
+        width: 100%;
+
     }
 
     .description img {
@@ -617,7 +627,8 @@ i.fa.fa-window-close {
     }
 
     .side-profile {
-        display: none
+        right: -9999;
+        position: absolute
     }
 
     .panel-container {
@@ -628,4 +639,11 @@ i.fa.fa-window-close {
         padding: 0px;
     }
 
+    .web-menu {
+        display: none;
+    }
+
+    .content-container {
+        scrollbar-width: none;
+    }
 }
