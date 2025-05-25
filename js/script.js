@@ -35,13 +35,14 @@ hide.addEventListener("click", function () {
 
 
 });
-var sidebar = document.getElementById("mobile-menu")
+var sidebar = document.getElementById("mobileMenu")
 function mobileMenu() {
     sidebar.classList.toggle("openMenu")
 
 }
 function hideMenu() {
     sidebar.classList.remove("openMenu")
+    mobileContainer = document.getElementsByClassName("content-sub-container")
 }
 function hideSideBar() {
     var mainSidebar = document.getElementById("side-bar")

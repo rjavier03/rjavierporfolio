@@ -22,7 +22,7 @@
         <div class="panel-container">
             <div class="main-container">
                 <div class="side-profile" id="side-bar">
-                    <i class="fa fa-window-close" aria-hidden="true" onclick="hideSideBar()" id="mobile-sidebar"></i>
+                    <i class="fa fa-window-close" aria-hidden="true" onclick="hideSideBar()"></i>
                     <div class="profile-container">
                         <div class="profile">
                             <img src="assets/profile_new.jpg" alt="">
@@ -37,8 +37,7 @@
                             <div class="download-button">
                                 <div class="wrapper">
                                     <div class="link_wrapper">
-                                        <a href="assets/RonaldJavier.pdf"
-                                            download="RonaldJavier_resume">DownloadResumé()</a>
+                                        <a href="assets/RJavier.pdf" download="RonaldJavier_resume">DownloadResumé()</a>
                                         <div class="icon">
                                             <svg fill="#000000" viewBox="0 0 32 32" version="1.1"
                                                 xmlns="http://www.w3.org/2000/svg">
@@ -90,21 +89,22 @@
                 <div class="container" id="content-container">
                     <div class="header">
                         <div class="hide-side">
-                            <h3 id="hide-side">ViewSideBar()</h3>
+                            <h3 id="hide-side">HideSideBar()</h3>
                             <i class="fa fa-user"></i>
                         </div>
                         <i class="fa fa-bars" onclick="mobileMenu()"></i>
-                        <div class="main-menu web-menu" id="main-menu">
-                            <a href="#home">
+                        <div class="main-menu" id="main-menu">
+                            <i class="fa fa-window-close" aria-hidden="true" onclick="mobileMenu()"></i>
+                            <a href="#home" onclick="hideMenu()">
                                 <ol>Home</ol>
                             </a>
-                            <a href="#skill">
+                            <a href="#skill" onclick="hideMenu()">
                                 <ol>Skills</ol>
                             </a>
-                            <a href="#experience">
+                            <a href="#experience" onclick="hideMenu()">
                                 <ol>Experience</ol>
                             </a>
-                            <a href="#contact">
+                            <a href="#contact" onclick="hideMenu()">
                                 <ol>Contact</ol>
                             </a>
                         </div>
@@ -334,21 +334,6 @@
             </div>
         </div>
 
-    </div>
-    <div class="main-menu mobile-menu" id="mobile-menu">
-        <i class="fa fa-window-close" aria-hidden="true" onclick="mobileMenu()"></i>
-        <a href="#home" onclick="hideMenu()">
-            <ol>Home</ol>
-        </a>
-        <a href="#skill" onclick="hideMenu()">
-            <ol>Skills</ol>
-        </a>
-        <a href="#experience" onclick="hideMenu()">
-            <ol>Experience</ol>
-        </a>
-        <a href="#contact" onclick="hideMenu()">
-            <ol>Contact</ol>
-        </a>
     </div>
 
     <script src="js/particles.js-master/particles.js"></script>
