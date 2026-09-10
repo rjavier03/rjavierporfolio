@@ -1279,3 +1279,199 @@ function escapeAttribute(value) {
 
 window.portfolioData =
     portfolioData;
+
+document.addEventListener("DOMContentLoaded", function () {
+  const mobileMenu = document.getElementById("mobile-menu");
+  const mobileMenuToggle =
+    document.getElementById("mobile-menu-toggle");
+  const mobileMenuClose =
+    document.getElementById("mobile-menu-close");
+
+  const mobileNavLinks =
+    document.querySelectorAll(".mobile-nav-link");
+
+  if (
+    !mobileMenu ||
+    !mobileMenuToggle ||
+    !mobileMenuClose
+  ) {
+    console.warn(
+      "Mobile navigation elements were not found."
+    );
+
+    return;
+  }
+
+
+  /* ==========================================================
+     OPEN MENU
+  ========================================================== */
+
+  function openMobileMenu() {
+    mobileMenu.classList.add("open");
+
+    document.body.classList.add(
+      "mobile-menu-open"
+    );
+
+    mobileMenu.setAttribute(
+      "aria-hidden",
+      "false"
+    );
+
+    mobileMenuToggle.setAttribute(
+      "aria-expanded",
+      "true"
+    );
+  }
+
+
+  /* ==========================================================
+     CLOSE MENU
+  ========================================================== */
+
+  function closeMobileMenu() {
+    mobileMenu.classList.remove("open");
+
+    document.body.classList.remove(
+      "mobile-menu-open"
+    );
+
+    mobileMenu.setAttribute(
+      "aria-hidden",
+      "true"
+    );
+
+    mobileMenuToggle.setAttribute(
+      "aria-expanded",
+      "false"
+    );
+  }
+
+
+  /* ==========================================================
+     HAMBURGER BUTTON
+  ========================================================== */
+
+  mobileMenuToggle.addEventListener(
+    "click",
+    function () {
+
+      if (
+        mobileMenu.classList.contains("open")
+      ) {
+        closeMobileMenu();
+      } else {
+        openMobileMenu();
+      }
+
+    }
+  );
+
+
+  /* ==========================================================
+     CLOSE BUTTON
+  ========================================================== */
+
+  mobileMenuClose.addEventListener(
+    "click",
+    function () {
+      closeMobileMenu();
+    }
+  );
+
+
+  /* ==========================================================
+     MOBILE NAVIGATION
+  ========================================================== */
+
+  mobileNavLinks.forEach(function (link) {
+
+    link.addEventListener(
+      "click",
+      function () {
+
+        const section =
+          this.dataset.section;
+
+        /*
+         * Update active state
+         */
+        mobileNavLinks.forEach(
+          function (navLink) {
+            navLink.classList.remove(
+              "active"
+            );
+          }
+        );
+
+        this.classList.add("active");
+
+
+        /*
+         * Close menu
+         */
+        closeMobileMenu();
+
+
+        /*
+         * If your existing app.js already handles
+         * navigation using .nav-link, dispatch
+         * the same navigation behavior.
+         */
+        const desktopLink =
+          document.querySelector(
+            '.navigation .nav-link[data-section="' +
+              section +
+              '"]'
+          );
+
+        if (desktopLink) {
+          desktopLink.click();
+        }
+
+      }
+    );
+
+  });
+
+
+  /* ==========================================================
+     ESC KEY
+  ========================================================== */
+
+  document.addEventListener(
+    "keydown",
+    function (event) {
+
+      if (
+        event.key === "Escape" &&
+        mobileMenu.classList.contains("open")
+      ) {
+        closeMobileMenu();
+      }
+
+    }
+  );
+
+
+  /* ==========================================================
+     WINDOW RESIZE
+  ========================================================== */
+
+  window.addEventListener(
+    "resize",
+    function () {
+
+      /*
+       * If the user rotates the phone or
+       * resizes back to desktop, close menu.
+       */
+      if (window.innerWidth > 900) {
+        closeMobileMenu();
+      }
+
+    }
+  );
+
+});

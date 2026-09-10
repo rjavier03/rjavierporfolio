@@ -1,3 +1,4 @@
+```html
 <!doctype html>
 <html lang="en">
   <head>
@@ -22,8 +23,8 @@
 
     <div class="app-layout">
       <!-- =====================================================
-             SIDEBAR
-        ====================================================== -->
+           DESKTOP SIDEBAR
+      ====================================================== -->
 
       <aside class="sidebar">
         <div class="sidebar-brand">
@@ -80,13 +81,122 @@
       </aside>
 
       <!-- =====================================================
-             MAIN CONTENT
-        ====================================================== -->
+           MOBILE HEADER
+      ====================================================== -->
+
+      <header class="mobile-header">
+        <div class="mobile-brand">
+          <div class="mobile-brand-logo">RJ</div>
+
+          <div class="mobile-brand-info">
+            <strong>Ronald Javier</strong>
+            <span>Software Engineer</span>
+          </div>
+        </div>
+
+        <button
+          type="button"
+          id="mobile-menu-toggle"
+          class="mobile-menu-toggle"
+          aria-label="Open navigation menu"
+          aria-controls="mobile-menu"
+          aria-expanded="false"
+        >
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </header>
+
+      <!-- =====================================================
+           MOBILE FULL-SCREEN MENU
+      ====================================================== -->
+
+      <div id="mobile-menu" class="mobile-menu" aria-hidden="true">
+        <div class="mobile-menu-header">
+          <div class="mobile-brand">
+            <div class="mobile-brand-logo">RJ</div>
+
+            <div class="mobile-brand-info">
+              <strong>Ronald Javier</strong>
+              <span>Software Engineer</span>
+            </div>
+          </div>
+
+          <button
+            type="button"
+            id="mobile-menu-close"
+            class="mobile-menu-close"
+            aria-label="Close navigation menu"
+          >
+            &times;
+          </button>
+        </div>
+
+        <nav class="mobile-navigation">
+          <a href="#home" class="mobile-nav-link active" data-section="home">
+            <span class="mobile-nav-number">01</span>
+            <span class="mobile-nav-icon">⌂</span>
+            <span class="mobile-nav-text">Home</span>
+          </a>
+
+          <a href="#about" class="mobile-nav-link" data-section="about">
+            <span class="mobile-nav-number">02</span>
+            <span class="mobile-nav-icon">◉</span>
+            <span class="mobile-nav-text">About</span>
+          </a>
+
+          <a
+            href="#experience"
+            class="mobile-nav-link"
+            data-section="experience"
+          >
+            <span class="mobile-nav-number">03</span>
+            <span class="mobile-nav-icon">▣</span>
+            <span class="mobile-nav-text">Experience</span>
+          </a>
+
+          <a href="#projects" class="mobile-nav-link" data-section="projects">
+            <span class="mobile-nav-number">04</span>
+            <span class="mobile-nav-icon">◇</span>
+            <span class="mobile-nav-text">Projects</span>
+          </a>
+
+          <a href="#skills" class="mobile-nav-link" data-section="skills">
+            <span class="mobile-nav-number">05</span>
+            <span class="mobile-nav-icon">✦</span>
+            <span class="mobile-nav-text">Skills</span>
+          </a>
+
+          <a href="#contact" class="mobile-nav-link" data-section="contact">
+            <span class="mobile-nav-number">06</span>
+            <span class="mobile-nav-icon">✉</span>
+            <span class="mobile-nav-text">Contact</span>
+          </a>
+        </nav>
+
+        <div class="mobile-menu-footer">
+          <div class="mobile-availability">
+            <span class="availability-dot"></span>
+
+            <div>
+              <strong>Available</strong>
+              <small>For opportunities</small>
+            </div>
+          </div>
+
+          <span class="mobile-menu-footer-text"> SOFTWARE ENGINEER </span>
+        </div>
+      </div>
+
+      <!-- =====================================================
+           MAIN CONTENT
+      ====================================================== -->
 
       <main class="main-content">
         <!-- =================================================
-                 HOME
-            ================================================== -->
+             HOME
+        ================================================== -->
 
         <section id="home" class="page-section active-section">
           <div class="page-header">
@@ -110,9 +220,7 @@
             </div>
           </div>
 
-          <!-- =================================================
-                     TECHNOLOGY CAROUSEL
-                ================================================== -->
+          <!-- TECHNOLOGY CAROUSEL -->
 
           <div class="technology-carousel">
             <div class="tech-ticker">
@@ -122,9 +230,7 @@
             </div>
           </div>
 
-          <!-- =================================================
-                     HERO
-                ================================================== -->
+          <!-- HERO -->
 
           <div class="hero-3d">
             <div class="hero-grid"></div>
@@ -183,9 +289,7 @@
             </div>
           </div>
 
-          <!-- =================================================
-                     STATS
-                ================================================== -->
+          <!-- STATS -->
 
           <div class="stats-grid">
             <div class="stat-card">
@@ -213,9 +317,7 @@
             </div>
           </div>
 
-          <!-- =================================================
-                     DASHBOARD
-                ================================================== -->
+          <!-- DASHBOARD -->
 
           <div class="dashboard-grid">
             <div class="glass-card service-card">
@@ -310,8 +412,8 @@
         </section>
 
         <!-- =================================================
-                 ABOUT
-            ================================================== -->
+             ABOUT
+        ================================================== -->
 
         <section id="about" class="page-section">
           <div class="section-heading">
@@ -341,17 +443,20 @@
 
               <div class="details-list">
                 <div class="detail-row">
-                  <span>Education</span>
+                  <span> Education </span>
+
                   <strong id="about-education"> - </strong>
                 </div>
 
                 <div class="detail-row">
-                  <span>Location</span>
+                  <span> Location </span>
+
                   <strong id="about-location"> - </strong>
                 </div>
 
                 <div class="detail-row">
-                  <span>Email</span>
+                  <span> Email </span>
+
                   <strong id="about-email"> - </strong>
                 </div>
               </div>
@@ -360,8 +465,8 @@
         </section>
 
         <!-- =================================================
-                 EXPERIENCE
-            ================================================== -->
+             EXPERIENCE
+        ================================================== -->
 
         <section id="experience" class="page-section">
           <div class="section-heading">
@@ -379,8 +484,8 @@
         </section>
 
         <!-- =================================================
-                 PROJECTS
-            ================================================== -->
+             PROJECTS
+        ================================================== -->
 
         <section id="projects" class="page-section">
           <div class="section-heading">
@@ -398,8 +503,8 @@
         </section>
 
         <!-- =================================================
-                 SKILLS
-            ================================================== -->
+             SKILLS
+        ================================================== -->
 
         <section id="skills" class="page-section">
           <div class="section-heading">
@@ -417,8 +522,8 @@
         </section>
 
         <!-- =================================================
-                 CONTACT
-            ================================================== -->
+             CONTACT
+        ================================================== -->
 
         <section id="contact" class="page-section">
           <div class="section-heading">
@@ -526,21 +631,15 @@
     </div>
 
     <!-- =========================================================
-         JAVASCRIPT
+         AI PORTFOLIO CHATBOT
     ========================================================== -->
-    <!-- ============================================================
-     AI PORTFOLIO CHATBOT
-     ============================================================ -->
 
     <div id="portfolio-chatbot">
-      <!-- Floating button -->
       <button id="chatbot-toggle" aria-label="Open AI assistant">
-        <span class="chatbot-icon">✦</span>
+        <span class="chatbot-icon"> ✦ </span>
       </button>
 
-      <!-- Chat window -->
       <div id="chatbot-window">
-        <!-- Header -->
         <div class="chatbot-header">
           <div class="chatbot-header-info">
             <div class="chatbot-avatar">RJ</div>
@@ -550,6 +649,7 @@
 
               <div class="chatbot-status">
                 <span class="status-dot"></span>
+
                 Online
               </div>
             </div>
@@ -558,7 +658,6 @@
           <button id="chatbot-close" aria-label="Close chatbot">&times;</button>
         </div>
 
-        <!-- Messages -->
         <div id="chatbot-messages">
           <div class="chatbot-message bot-message">
             <div class="message-avatar">RJ</div>
@@ -574,7 +673,6 @@
           </div>
         </div>
 
-        <!-- Suggested questions -->
         <div id="chatbot-suggestions">
           <button class="suggestion-btn">Tell me about Ronald</button>
 
@@ -587,7 +685,6 @@
           </button>
         </div>
 
-        <!-- Input -->
         <div class="chatbot-input-area">
           <textarea
             id="chatbot-input"
@@ -597,13 +694,18 @@
           ></textarea>
 
           <button id="chatbot-send" aria-label="Send message">
-            <span>➤</span>
+            <span> ➤ </span>
           </button>
         </div>
 
         <div class="chatbot-footer">Powered by AI</div>
       </div>
     </div>
+
+    <!-- =========================================================
+         JAVASCRIPT
+    ========================================================== -->
+
     <script src="js/app.js"></script>
     <script src="js/chatbot.js"></script>
   </body>
