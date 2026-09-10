@@ -1,0 +1,59 @@
+{
+    "projects": [
+        {
+            "name": "B2BE PDF Converter",
+            "description": "A standalone Windows application designed to process B2BE document files, preserve document headers, extract PDF content, and generate converted PDF output.",
+            "technologies": [
+                "C++",
+                "Win32 API",
+                "Windows PDF Rendering"
+            ],
+            "status": "In Development"
+        },
+        {
+            "name": "Leave and Shift Scheduling System",
+            "description": "A web-based scheduling system developed to replace Excel-based leave and shift management workflows.",
+            "technologies": [
+                "PHP",
+                "MySQL",
+                "HTML",
+                "CSS",
+                "JavaScript"
+            ],
+            "status": "Completed"
+        },
+        {
+            "name": "Pearlsonal Notes",
+            "description": "A web-based personal notes management system with categories, search, favorites, dynamic slugs, drag positioning, and autosave functionality.",
+            "technologies": [
+                "PHP",
+                "MySQL",
+                "JavaScript",
+                "HTML",
+                "CSS"
+            ],
+            "status": "Active"
+        },
+        {
+            "name": "Food Tracker",
+            "description": "A personal Android application for tracking food, calories, exercise, and movement reminders.",
+            "technologies": [
+                "Android",
+                "Java",
+                "Gemini API"
+            ],
+            "status": "In Development"
+        },
+        {
+            "name": "Personal Portfolio",
+            "description": "A responsive single-page portfolio website showcasing software engineering experience, projects, skills, and technologies.",
+            "technologies": [
+                "HTML",
+                "CSS",
+                "JavaScript",
+                "GitHub Pages"
+            ],
+            "status": "Active"
+        }
+    ]
+}

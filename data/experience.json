@@ -1,0 +1,46 @@
+{
+    "experience": [
+        {
+            "company": "B2BE GSS Phils Inc.",
+            "position": "Software Engineer",
+            "startDate": "Jun 2024",
+            "endDate": "Present",
+            "description": "Develop and maintain software solutions for business document processing and text translation systems.",
+            "responsibilities": [
+                "Develop text translation processes including JSON to EDI, XML to EDI, and EDI to PDF.",
+                "Maintain EDI and OCR-related document processing workflows.",
+                "Develop internal tools to improve business processes.",
+                "Develop and maintain a web-based leave and shift scheduling system.",
+                "Perform code reviews and production deployments.",
+                "Perform manual testing by validating system output and coordinating with clients when verification is required.",
+                "Provide technical guidance and hands-on coding support to shift team members."
+            ]
+        },
+        {
+            "company": "B2BE",
+            "position": "Associate Software Engineer",
+            "startDate": "Aug 2022",
+            "endDate": "Jun 2024",
+            "description": "Provided Level 2 technical support for production software systems.",
+            "responsibilities": [
+                "Troubleshoot code-related production issues.",
+                "Investigate and resolve software bugs.",
+                "Analyze and resolve data discrepancies.",
+                "Support production systems and coordinate technical issue resolution."
+            ]
+        },
+        {
+            "company": "iPhiTech IT and Digital Solutions",
+            "position": "WordPress Developer",
+            "startDate": "Nov 2021",
+            "endDate": "Aug 2022",
+            "description": "Developed and maintained WordPress websites and custom functionality.",
+            "responsibilities": [
+                "Maintain WordPress websites.",
+                "Customize WordPress themes and plugins.",
+                "Develop custom WordPress plugins.",
+                "Troubleshoot website and plugin-related issues."
+            ]
+        }
+    ]
+}

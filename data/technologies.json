@@ -1,0 +1,269 @@
+{
+    "technologies": [
+        {
+            "name": "C++",
+            "icon": "cplusplus",
+            "iconUrl": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/cplusplus/cplusplus-original.svg",
+            "category": "Language",
+            "experience": [
+                {
+                    "project": "B2BE PDF Converter",
+                    "role": "Software Engineer",
+                    "description": "Developed a standalone Windows application using C++ and the Win32 API to process B2BE document files, extract PDF content, preserve document headers, and generate converted PDF output."
+                },
+                {
+                    "project": "B2BE Document Translation Systems",
+                    "role": "Software Engineer",
+                    "description": "Used C++ for software development, troubleshooting, debugging, and maintaining document processing and text translation workflows."
+                }
+            ]
+        },
+        {
+            "name": "HTML5",
+            "icon": "html5",
+            "iconUrl": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg",
+            "category": "Web",
+            "experience": [
+                {
+                    "project": "Leave and Shift Scheduling System",
+                    "role": "Developer",
+                    "description": "Used HTML to build the structure and user interface of a web-based leave and shift scheduling system that replaced Excel-based workflows."
+                },
+                {
+                    "project": "Pearlsonal Notes",
+                    "role": "Developer",
+                    "description": "Used HTML to build the interface for a personal notes management system including categories, search, favorites, and dynamic content."
+                },
+                {
+                    "project": "Personal Portfolio",
+                    "role": "Developer",
+                    "description": "Used HTML5 to structure this responsive single-page portfolio and its different sections."
+                }
+            ]
+        },
+        {
+            "name": "CSS3",
+            "icon": "css3",
+            "iconUrl": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original.svg",
+            "category": "Web",
+            "experience": [
+                {
+                    "project": "Leave and Shift Scheduling System",
+                    "role": "Developer",
+                    "description": "Used CSS to create and style the web interface, layouts, forms, tables, and responsive elements."
+                },
+                {
+                    "project": "Pearlsonal Notes",
+                    "role": "Developer",
+                    "description": "Used CSS to design the user interface, cards, navigation, responsive layouts, and interactive visual elements."
+                },
+                {
+                    "project": "Personal Portfolio",
+                    "role": "Developer",
+                    "description": "Used CSS3 to create the modern dashboard layout, 3D-style cards, technology carousel, responsive design, animations, and visual effects."
+                }
+            ]
+        },
+        {
+            "name": "JavaScript",
+            "icon": "javascript",
+            "iconUrl": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg",
+            "category": "Language",
+            "experience": [
+                {
+                    "project": "Leave and Shift Scheduling System",
+                    "role": "Developer",
+                    "description": "Used JavaScript to implement client-side interactions, dynamic page behavior, validation, and user interface functionality."
+                },
+                {
+                    "project": "Pearlsonal Notes",
+                    "role": "Developer",
+                    "description": "Used JavaScript extensively for dynamic notes, search, favorites, drag positioning, autosave, categories, and client-side interactions."
+                },
+                {
+                    "project": "Personal Portfolio",
+                    "role": "Developer",
+                    "description": "Used JavaScript to load JSON data, dynamically render portfolio content, control SPA navigation, and handle technology interaction and modals."
+                }
+            ]
+        },
+        {
+            "name": "PHP",
+            "icon": "php",
+            "iconUrl": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/php/php-original.svg",
+            "category": "Language",
+            "experience": [
+                {
+                    "project": "Leave and Shift Scheduling System",
+                    "role": "Developer",
+                    "description": "Used PHP for server-side application logic, database operations, scheduling functionality, leave management, and backend processing."
+                },
+                {
+                    "project": "Pearlsonal Notes",
+                    "role": "Developer",
+                    "description": "Used PHP to build backend functionality, database interactions, note management, categories, and dynamic content."
+                },
+                {
+                    "project": "WordPress Development",
+                    "role": "WordPress Developer",
+                    "description": "Used PHP for WordPress theme customization, plugin customization, and custom plugin development."
+                }
+            ]
+        },
+        {
+            "name": "WordPress",
+            "icon": "wordpress",
+            "iconUrl": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/wordpress/wordpress-original.svg",
+            "category": "CMS",
+            "experience": [
+                {
+                    "project": "WordPress Websites",
+                    "role": "WordPress Developer",
+                    "description": "Maintained and developed WordPress websites, including theme customization, plugin customization, troubleshooting, and custom plugin development."
+                },
+                {
+                    "project": "iPhiTech IT and Digital Solutions",
+                    "role": "WordPress Developer",
+                    "description": "Worked on WordPress website maintenance, customization, plugin development, and resolving website-related issues."
+                }
+            ]
+        },
+        {
+            "name": "MySQL",
+            "icon": "mysql",
+            "iconUrl": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mysql/mysql-original.svg",
+            "category": "Database",
+            "experience": [
+                {
+                    "project": "Leave and Shift Scheduling System",
+                    "role": "Developer",
+                    "description": "Used MySQL to store and manage employee schedules, leave records, holidays, accumulated leave, and RTO scheduling information."
+                },
+                {
+                    "project": "Pearlsonal Notes",
+                    "role": "Developer",
+                    "description": "Used MySQL for storing notes, categories, user content, positions, and application data."
+                }
+            ]
+        },
+        {
+            "name": "Git",
+            "icon": "git",
+            "iconUrl": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/git/git-original.svg",
+            "category": "Version Control",
+            "experience": [
+                {
+                    "project": "Software Development",
+                    "role": "Software Engineer",
+                    "description": "Used Git for source code version control, managing changes, maintaining development history, and collaborating on software projects."
+                }
+            ]
+        },
+        {
+            "name": "GitHub",
+            "icon": "github",
+            "iconUrl": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original.svg",
+            "category": "Development",
+            "experience": [
+                {
+                    "project": "Personal Portfolio",
+                    "role": "Developer",
+                    "description": "Used GitHub to maintain and host the portfolio source code and publish the website through GitHub Pages."
+                },
+                {
+                    "project": "Software Projects",
+                    "role": "Developer",
+                    "description": "Used GitHub for source code management, project versioning, and maintaining development projects."
+                }
+            ]
+        },
+        {
+            "name": "Node.js",
+            "icon": "nodejs",
+            "iconUrl": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nodejs/nodejs-original.svg",
+            "category": "Runtime",
+            "experience": [
+                {
+                    "project": "Web Development",
+                    "role": "Developer",
+                    "description": "Used Node.js for JavaScript runtime environments and web development experiments and applications."
+                }
+            ]
+        },
+        {
+            "name": "Python",
+            "icon": "python",
+            "iconUrl": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg",
+            "category": "Language",
+            "experience": [
+                {
+                    "project": "Development and Automation",
+                    "role": "Developer",
+                    "description": "Used Python for scripting, development utilities, automation, and technical experimentation."
+                }
+            ]
+        },
+        {
+            "name": "JSON",
+            "icon": "json",
+            "iconUrl": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/json/json-original.svg",
+            "category": "Data",
+            "experience": [
+                {
+                    "project": "B2BE Document Translation Systems",
+                    "role": "Software Engineer",
+                    "description": "Worked with JSON-based document data as part of text translation and document processing workflows, including JSON to EDI translation."
+                },
+                {
+                    "project": "Personal Portfolio",
+                    "role": "Developer",
+                    "description": "Used JSON files to separate portfolio content from application logic and dynamically load profile, experience, projects, skills, contact, and technology information."
+                }
+            ]
+        },
+        {
+            "name": "XML",
+            "icon": "xml",
+            "iconUrl": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/xml/xml-original.svg",
+            "category": "Data",
+            "experience": [
+                {
+                    "project": "B2BE Document Translation Systems",
+                    "role": "Software Engineer",
+                    "description": "Worked with XML-based business documents and developed XML to EDI text translation processes."
+                }
+            ]
+        },
+        {
+            "name": "VS Code",
+            "icon": "vscode",
+            "iconUrl": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vscode/vscode-original.svg",
+            "category": "Tools",
+            "experience": [
+                {
+                    "project": "Web Development",
+                    "role": "Developer",
+                    "description": "Used Visual Studio Code for HTML, CSS, JavaScript, PHP, JSON, and other web development projects."
+                },
+                {
+                    "project": "Personal Portfolio",
+                    "role": "Developer",
+                    "description": "Used VS Code as the primary development environment for building and maintaining this portfolio."
+                }
+            ]
+        },
+        {
+            "name": "Linux",
+            "icon": "linux",
+            "iconUrl": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/linux/linux-original.svg",
+            "category": "Operating System",
+            "experience": [
+                {
+                    "project": "Software Development",
+                    "role": "Developer",
+                    "description": "Experience working with Linux environments for development, troubleshooting, and technical tasks."
+                }
+            ]
+        }
+    ]
+}

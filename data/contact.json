@@ -1,0 +1,17 @@
+{
+    "contact": {
+        "name": "Ronald D. Javier",
+        "email": "rdjavier0303@gmail.com",
+        "location": "Philippines",
+        "availability": "Available for software engineering, technical support, web development, and freelance opportunities",
+        "preferredRoles": [
+            "Software Engineer",
+            "C++ Developer",
+            "Application Support Engineer",
+            "Technical Support Engineer",
+            "Web Developer",
+            "WordPress Developer"
+        ],
+        "message": "Feel free to reach out for professional opportunities, software development projects, technical support, or web development work."
+    }
+}

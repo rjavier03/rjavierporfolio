@@ -1,0 +1,54 @@
+{
+    "skills": [
+        {
+            "name": "C++ Development",
+            "category": "Programming",
+            "description": "C++ software development, debugging, troubleshooting, and application support."
+        },
+        {
+            "name": "Software Engineering",
+            "category": "Development",
+            "description": "Designing, developing, testing, maintaining, and deploying software solutions."
+        },
+        {
+            "name": "Production Support",
+            "category": "Support",
+            "description": "Troubleshooting production issues, investigating bugs, and resolving data discrepancies."
+        },
+        {
+            "name": "Text Translation Systems",
+            "category": "Integration",
+            "description": "Development and maintenance of document and text translation processes including JSON to EDI, XML to EDI, and EDI to PDF."
+        },
+        {
+            "name": "Web Development",
+            "category": "Web",
+            "description": "Development of responsive web applications using HTML, CSS, JavaScript, PHP, and MySQL."
+        },
+        {
+            "name": "WordPress Development",
+            "category": "Web",
+            "description": "WordPress website maintenance, theme customization, plugin customization, and custom plugin development."
+        },
+        {
+            "name": "Database Development",
+            "category": "Database",
+            "description": "Working with MySQL databases, data validation, troubleshooting, and application data management."
+        },
+        {
+            "name": "Debugging & Troubleshooting",
+            "category": "Support",
+            "description": "Analyzing software behavior, identifying root causes, fixing bugs, and resolving production issues."
+        },
+        {
+            "name": "Code Review",
+            "category": "Engineering",
+            "description": "Reviewing source code for correctness, maintainability, and potential issues."
+        },
+        {
+            "name": "Git & Version Control",
+            "category": "Tools",
+            "description": "Source control and collaborative software development using Git."
+        }
+    ]
+}
