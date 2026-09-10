@@ -1,19 +1,182 @@
-```html
 <!doctype html>
 <html lang="en">
   <head>
+    <!-- =========================================================
+         BASIC DOCUMENT META
+    ========================================================== -->
+
     <meta charset="UTF-8" />
+
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <title>Ronald D. Javier | Software Engineer</title>
+    <meta name="author" content="Ronald D. Javier" />
 
     <meta
       name="description"
-      content="Ronald D. Javier - Software Engineer specializing in C++, web development, production support, text translation systems, and automation."
+      content="Ronald D. Javier is a Software Engineer specializing in C++, web development, production support, troubleshooting, text translation systems, automation, and business process solutions."
     />
+
+    <meta
+      name="keywords"
+      content="Ronald Javier, Ronald D. Javier, Software Engineer, C++ Developer, C++ Software Engineer, Web Developer, WordPress Developer, Production Support Engineer, Application Support Engineer, Text Translation Systems, EDI, JSON, XML, PDF, JavaScript, PHP, MySQL, Software Development, Bulacan Philippines"
+    />
+
+    <meta
+      name="robots"
+      content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1"
+    />
+
+    <meta name="googlebot" content="index, follow" />
+
+    <meta name="theme-color" content="#0b0f19" />
+
+    <!-- =========================================================
+         PAGE TITLE
+    ========================================================== -->
+
+    <title>Ronald D. Javier | Software Engineer | C++ & Web Developer</title>
+
+    <!-- =========================================================
+         CANONICAL URL
+    ========================================================== -->
+
+    <link rel="canonical" href="https://ronaldjavier.online/" />
+
+    <!-- =========================================================
+         FAVICON / TAB ICON
+    ========================================================== -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="assets/icons/purple-white.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="assets/icons/purple-white.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="assets/icons/purple-white.png"
+    />
+    <!-- =========================================================
+         OPEN GRAPH / FACEBOOK / LINKEDIN
+    ========================================================== -->
+
+    <meta property="og:type" content="website" />
+
+    <meta property="og:title" content="Ronald D. Javier | Software Engineer" />
+
+    <meta
+      property="og:description"
+      content="Software Engineer specializing in C++, web development, production support, text translation systems, troubleshooting, and business process automation."
+    />
+
+    <meta property="og:url" content="https://ronaldjavier.online/" />
+
+    <meta property="og:site_name" content="Ronald D. Javier Portfolio" />
+
+    <meta property="og:locale" content="en_US" />
+
+    <!--
+      If you create a social preview image, place it at:
+      /images/og-image.jpg
+    -->
+
+    <meta
+      property="og:image"
+      content="https://ronaldjavier.online/images/og-image.jpg"
+    />
+
+    <meta
+      property="og:image:alt"
+      content="Ronald D. Javier - Software Engineer"
+    />
+
+    <!-- =========================================================
+         TWITTER / X CARD
+    ========================================================== -->
+
+    <meta name="twitter:card" content="summary_large_image" />
+
+    <meta name="twitter:title" content="Ronald D. Javier | Software Engineer" />
+
+    <meta
+      name="twitter:description"
+      content="Software Engineer specializing in C++, web development, production support, text translation systems, troubleshooting, and automation."
+    />
+
+    <meta
+      name="twitter:image"
+      content="https://ronaldjavier.online/images/og-image.jpg"
+    />
+
+    <!-- =========================================================
+         STRUCTURED DATA
+         Helps Google understand who you are.
+    ========================================================== -->
+
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Ronald D. Javier",
+        "url": "https://ronaldjavier.online/",
+        "email": "mailto:rdjavier0303@gmail.com",
+        "jobTitle": "Software Engineer",
+        "description": "Software Engineer specializing in C++, web development, production support, troubleshooting, text translation systems, and business process automation.",
+        "sameAs": [
+          "https://www.linkedin.com/in/ronald-javier-b12594225/",
+          "https://github.com/rjavier03"
+        ],
+        "knowsAbout": [
+          "C++",
+          "Software Engineering",
+          "Web Development",
+          "JavaScript",
+          "PHP",
+          "MySQL",
+          "WordPress",
+          "Production Support",
+          "Application Support",
+          "Troubleshooting",
+          "EDI",
+          "JSON",
+          "XML",
+          "PDF",
+          "Text Translation Systems",
+          "Business Process Automation"
+        ]
+      }
+    </script>
+
+    <!-- =========================================================
+         STYLESHEETS
+    ========================================================== -->
 
     <link rel="stylesheet" href="css/style.css" />
     <link rel="stylesheet" href="css/chatbot.css" />
+
+    <style>
+      .site-logo-image {
+        width: 100%;
+        height: 100%;
+        max-width: 100%;
+        max-height: 100%;
+        object-fit: contain;
+        display: block;
+      }
+
+      .avatar-content .site-logo-image {
+        width: 70%;
+        height: 70%;
+        margin: 15%;
+      }
+    </style>
   </head>
 
   <body>
@@ -28,7 +191,13 @@
 
       <aside class="sidebar">
         <div class="sidebar-brand">
-          <div class="brand-logo">RJ</div>
+          <div class="brand-logo" aria-hidden="true">
+            <img
+              src="assets/icons/purple-white.png"
+              alt="RJ"
+              class="site-logo-image"
+            />
+          </div>
 
           <div class="brand-info">
             <strong>Ronald Javier</strong>
@@ -36,41 +205,41 @@
           </div>
         </div>
 
-        <nav class="navigation">
+        <nav class="navigation" aria-label="Primary navigation">
           <a href="#home" class="nav-link active" data-section="home">
-            <span class="nav-icon">⌂</span>
+            <span class="nav-icon" aria-hidden="true">⌂</span>
             <span>Home</span>
           </a>
 
           <a href="#about" class="nav-link" data-section="about">
-            <span class="nav-icon">◉</span>
+            <span class="nav-icon" aria-hidden="true">◉</span>
             <span>About</span>
           </a>
 
           <a href="#experience" class="nav-link" data-section="experience">
-            <span class="nav-icon">▣</span>
+            <span class="nav-icon" aria-hidden="true">▣</span>
             <span>Experience</span>
           </a>
 
           <a href="#projects" class="nav-link" data-section="projects">
-            <span class="nav-icon">◇</span>
+            <span class="nav-icon" aria-hidden="true">◇</span>
             <span>Projects</span>
           </a>
 
           <a href="#skills" class="nav-link" data-section="skills">
-            <span class="nav-icon">✦</span>
+            <span class="nav-icon" aria-hidden="true">✦</span>
             <span>Skills</span>
           </a>
 
           <a href="#contact" class="nav-link" data-section="contact">
-            <span class="nav-icon">✉</span>
+            <span class="nav-icon" aria-hidden="true">✉</span>
             <span>Contact</span>
           </a>
         </nav>
 
         <div class="sidebar-bottom">
           <div class="availability">
-            <span class="availability-dot"></span>
+            <span class="availability-dot" aria-hidden="true"></span>
 
             <div>
               <strong>Available</strong>
@@ -86,7 +255,13 @@
 
       <header class="mobile-header">
         <div class="mobile-brand">
-          <div class="mobile-brand-logo">RJ</div>
+          <div class="mobile-brand-logo" aria-hidden="true">
+            <img
+              src="assets/icons/purple-white.png"
+              alt="RJ"
+              class="site-logo-image"
+            />
+          </div>
 
           <div class="mobile-brand-info">
             <strong>Ronald Javier</strong>
@@ -115,7 +290,13 @@
       <div id="mobile-menu" class="mobile-menu" aria-hidden="true">
         <div class="mobile-menu-header">
           <div class="mobile-brand">
-            <div class="mobile-brand-logo">RJ</div>
+            <div class="mobile-brand-logo" aria-hidden="true">
+              <img
+                src="assets/icons/purple-white.png"
+                alt="RJ"
+                class="site-logo-image"
+              />
+            </div>
 
             <div class="mobile-brand-info">
               <strong>Ronald Javier</strong>
@@ -133,16 +314,16 @@
           </button>
         </div>
 
-        <nav class="mobile-navigation">
+        <nav class="mobile-navigation" aria-label="Mobile navigation">
           <a href="#home" class="mobile-nav-link active" data-section="home">
             <span class="mobile-nav-number">01</span>
-            <span class="mobile-nav-icon">⌂</span>
+            <span class="mobile-nav-icon" aria-hidden="true">⌂</span>
             <span class="mobile-nav-text">Home</span>
           </a>
 
           <a href="#about" class="mobile-nav-link" data-section="about">
             <span class="mobile-nav-number">02</span>
-            <span class="mobile-nav-icon">◉</span>
+            <span class="mobile-nav-icon" aria-hidden="true">◉</span>
             <span class="mobile-nav-text">About</span>
           </a>
 
@@ -152,32 +333,32 @@
             data-section="experience"
           >
             <span class="mobile-nav-number">03</span>
-            <span class="mobile-nav-icon">▣</span>
+            <span class="mobile-nav-icon" aria-hidden="true">▣</span>
             <span class="mobile-nav-text">Experience</span>
           </a>
 
           <a href="#projects" class="mobile-nav-link" data-section="projects">
             <span class="mobile-nav-number">04</span>
-            <span class="mobile-nav-icon">◇</span>
+            <span class="mobile-nav-icon" aria-hidden="true">◇</span>
             <span class="mobile-nav-text">Projects</span>
           </a>
 
           <a href="#skills" class="mobile-nav-link" data-section="skills">
             <span class="mobile-nav-number">05</span>
-            <span class="mobile-nav-icon">✦</span>
+            <span class="mobile-nav-icon" aria-hidden="true">✦</span>
             <span class="mobile-nav-text">Skills</span>
           </a>
 
           <a href="#contact" class="mobile-nav-link" data-section="contact">
             <span class="mobile-nav-number">06</span>
-            <span class="mobile-nav-icon">✉</span>
+            <span class="mobile-nav-icon" aria-hidden="true">✉</span>
             <span class="mobile-nav-text">Contact</span>
           </a>
         </nav>
 
         <div class="mobile-menu-footer">
           <div class="mobile-availability">
-            <span class="availability-dot"></span>
+            <span class="availability-dot" aria-hidden="true"></span>
 
             <div>
               <strong>Available</strong>
@@ -198,31 +379,37 @@
              HOME
         ================================================== -->
 
-        <section id="home" class="page-section active-section">
+        <section
+          id="home"
+          class="page-section active-section"
+          aria-labelledby="home-title"
+        >
           <div class="page-header">
             <div>
               <span class="eyebrow"> SOFTWARE ENGINEER </span>
 
-              <h1>
+              <h1 id="home-title">
                 Building software that
                 <span class="gradient-text"> solves problems. </span>
               </h1>
 
               <p>
-                Software engineering, production support, web development, text
+                Ronald D. Javier is a Software Engineer specializing in software
+                development, C++, production support, web development, text
                 translation systems, and business process automation.
               </p>
             </div>
 
             <div class="header-status">
-              <span class="status-dot"></span>
+              <span class="status-dot" aria-hidden="true"></span>
+
               Open to opportunities
             </div>
           </div>
 
           <!-- TECHNOLOGY CAROUSEL -->
 
-          <div class="technology-carousel">
+          <div class="technology-carousel" aria-label="Technology skills">
             <div class="tech-ticker">
               <div id="tech-ticker-track" class="tech-ticker-track">
                 <!-- Generated by app.js -->
@@ -233,7 +420,7 @@
           <!-- HERO -->
 
           <div class="hero-3d">
-            <div class="hero-grid"></div>
+            <div class="hero-grid" aria-hidden="true"></div>
 
             <div class="hero-content">
               <span class="hero-label"> HELLO, I'M </span>
@@ -269,7 +456,7 @@
 
             <!-- 3D VISUAL -->
 
-            <div class="hero-visual">
+            <div class="hero-visual" aria-hidden="true">
               <div class="floating-cube cube-one">
                 <span>&lt;/&gt;</span>
               </div>
@@ -284,7 +471,13 @@
               <div class="hero-avatar">
                 <div class="avatar-glow"></div>
 
-                <div class="avatar-content">RJ</div>
+                <div class="avatar-content">
+                  <img
+                    src="assets/icons/purple-white.png"
+                    alt="RJ"
+                    class="site-logo-image"
+                  />
+                </div>
               </div>
             </div>
           </div>
@@ -293,7 +486,7 @@
 
           <div class="stats-grid">
             <div class="stat-card">
-              <span class="stat-number"> 3+ </span>
+              <span class="stat-number"> 5+ </span>
 
               <span class="stat-label"> Years Experience </span>
             </div>
@@ -322,7 +515,7 @@
           <div class="dashboard-grid">
             <div class="glass-card service-card">
               <div class="card-heading">
-                <div class="card-icon">⚡</div>
+                <div class="card-icon" aria-hidden="true">⚡</div>
 
                 <div>
                   <span class="card-kicker"> CAPABILITIES </span>
@@ -390,7 +583,7 @@
 
             <div class="glass-card stack-card">
               <div class="card-heading">
-                <div class="card-icon">◈</div>
+                <div class="card-icon" aria-hidden="true">◈</div>
 
                 <div>
                   <span class="card-kicker"> DEVELOPMENT </span>
@@ -415,11 +608,11 @@
              ABOUT
         ================================================== -->
 
-        <section id="about" class="page-section">
+        <section id="about" class="page-section" aria-labelledby="about-title">
           <div class="section-heading">
             <span class="eyebrow"> ABOUT ME </span>
 
-            <h2>
+            <h2 id="about-title">
               Software engineer focused on
               <span class="gradient-text"> practical solutions. </span>
             </h2>
@@ -443,19 +636,19 @@
 
               <div class="details-list">
                 <div class="detail-row">
-                  <span> Education </span>
+                  <span>Education</span>
 
                   <strong id="about-education"> - </strong>
                 </div>
 
                 <div class="detail-row">
-                  <span> Location </span>
+                  <span>Location</span>
 
                   <strong id="about-location"> - </strong>
                 </div>
 
                 <div class="detail-row">
-                  <span> Email </span>
+                  <span>Email</span>
 
                   <strong id="about-email"> - </strong>
                 </div>
@@ -468,11 +661,15 @@
              EXPERIENCE
         ================================================== -->
 
-        <section id="experience" class="page-section">
+        <section
+          id="experience"
+          class="page-section"
+          aria-labelledby="experience-title"
+        >
           <div class="section-heading">
             <span class="eyebrow"> CAREER </span>
 
-            <h2>
+            <h2 id="experience-title">
               Professional
               <span class="gradient-text"> Experience </span>
             </h2>
@@ -487,11 +684,15 @@
              PROJECTS
         ================================================== -->
 
-        <section id="projects" class="page-section">
+        <section
+          id="projects"
+          class="page-section"
+          aria-labelledby="projects-title"
+        >
           <div class="section-heading">
             <span class="eyebrow"> WORK </span>
 
-            <h2>
+            <h2 id="projects-title">
               Selected
               <span class="gradient-text"> Projects </span>
             </h2>
@@ -506,11 +707,15 @@
              SKILLS
         ================================================== -->
 
-        <section id="skills" class="page-section">
+        <section
+          id="skills"
+          class="page-section"
+          aria-labelledby="skills-title"
+        >
           <div class="section-heading">
             <span class="eyebrow"> EXPERTISE </span>
 
-            <h2>
+            <h2 id="skills-title">
               My
               <span class="gradient-text"> Skills </span>
             </h2>
@@ -525,11 +730,15 @@
              CONTACT
         ================================================== -->
 
-        <section id="contact" class="page-section">
+        <section
+          id="contact"
+          class="page-section"
+          aria-labelledby="contact-title"
+        >
           <div class="section-heading">
             <span class="eyebrow"> GET IN TOUCH </span>
 
-            <h2>
+            <h2 id="contact-title">
               Let's build something
               <span class="gradient-text"> useful. </span>
             </h2>
@@ -543,37 +752,42 @@
 
               <p id="contact-message">Feel free to reach out.</p>
 
-              <a id="contact-email-link" class="primary-button" href="#">
+              <a
+                id="contact-email-link"
+                class="primary-button"
+                href="#"
+                aria-label="Send an email to Ronald D. Javier"
+              >
                 Send Me an Email
               </a>
             </div>
 
             <div class="contact-details">
               <div class="contact-detail">
-                <span class="contact-detail-icon"> ✉ </span>
+                <span class="contact-detail-icon" aria-hidden="true"> ✉ </span>
 
                 <div>
-                  <span> Email </span>
+                  <span>Email</span>
 
                   <strong id="contact-email"> - </strong>
                 </div>
               </div>
 
               <div class="contact-detail">
-                <span class="contact-detail-icon"> ◉ </span>
+                <span class="contact-detail-icon" aria-hidden="true"> ◉ </span>
 
                 <div>
-                  <span> Location </span>
+                  <span>Location</span>
 
                   <strong id="contact-location"> - </strong>
                 </div>
               </div>
 
               <div class="contact-detail">
-                <span class="contact-detail-icon"> ✓ </span>
+                <span class="contact-detail-icon" aria-hidden="true"> ✓ </span>
 
                 <div>
-                  <span> Availability </span>
+                  <span>Availability</span>
 
                   <strong id="contact-availability"> - </strong>
                 </div>
@@ -589,7 +803,7 @@
     ========================================================== -->
 
     <div id="technology-modal" class="technology-modal" aria-hidden="true">
-      <div class="modal-backdrop"></div>
+      <div class="modal-backdrop" aria-hidden="true"></div>
 
       <div
         class="technology-modal-dialog"
@@ -601,7 +815,7 @@
           type="button"
           id="modal-close"
           class="modal-close"
-          aria-label="Close"
+          aria-label="Close technology details"
         >
           ×
         </button>
@@ -634,33 +848,51 @@
          AI PORTFOLIO CHATBOT
     ========================================================== -->
 
-    <div id="portfolio-chatbot">
-      <button id="chatbot-toggle" aria-label="Open AI assistant">
-        <span class="chatbot-icon"> ✦ </span>
+    <div id="portfolio-chatbot" aria-label="Ronald D. Javier AI assistant">
+      <button id="chatbot-toggle" aria-label="Open AI assistant" type="button">
+        <span class="chatbot-icon" aria-hidden="true"> ✦ </span>
       </button>
 
       <div id="chatbot-window">
         <div class="chatbot-header">
           <div class="chatbot-header-info">
-            <div class="chatbot-avatar">RJ</div>
+            <div class="chatbot-avatar" aria-hidden="true">
+              <img
+                src="assets/icons/purple-white.png"
+                alt="RJ"
+                class="site-logo-image"
+              />
+            </div>
 
             <div>
               <div class="chatbot-title">Ronald's AI Assistant</div>
 
               <div class="chatbot-status">
-                <span class="status-dot"></span>
+                <span class="status-dot" aria-hidden="true"></span>
 
                 Online
               </div>
             </div>
           </div>
 
-          <button id="chatbot-close" aria-label="Close chatbot">&times;</button>
+          <button id="chatbot-close" aria-label="Close chatbot" type="button">
+            &times;
+          </button>
         </div>
 
-        <div id="chatbot-messages">
+        <div
+          id="chatbot-messages"
+          aria-live="polite"
+          aria-label="Chat messages"
+        >
           <div class="chatbot-message bot-message">
-            <div class="message-avatar">RJ</div>
+            <div class="message-avatar" aria-hidden="true">
+              <img
+                src="assets/icons/purple-white.png"
+                alt="RJ"
+                class="site-logo-image"
+              />
+            </div>
 
             <div class="message-content">
               <p>Hi! I'm Ronald's AI assistant.</p>
@@ -673,14 +905,20 @@
           </div>
         </div>
 
-        <div id="chatbot-suggestions">
-          <button class="suggestion-btn">Tell me about Ronald</button>
+        <div id="chatbot-suggestions" aria-label="Suggested questions">
+          <button class="suggestion-btn" type="button">
+            Tell me about Ronald
+          </button>
 
-          <button class="suggestion-btn">What are his skills?</button>
+          <button class="suggestion-btn" type="button">
+            What are his skills?
+          </button>
 
-          <button class="suggestion-btn">Does he have C++ experience?</button>
+          <button class="suggestion-btn" type="button">
+            Does he have C++ experience?
+          </button>
 
-          <button class="suggestion-btn">
+          <button class="suggestion-btn" type="button">
             What projects has he worked on?
           </button>
         </div>
@@ -691,10 +929,11 @@
             placeholder="Ask me anything about Ronald..."
             rows="1"
             maxlength="1000"
+            aria-label="Ask Ronald's AI assistant"
           ></textarea>
 
-          <button id="chatbot-send" aria-label="Send message">
-            <span> ➤ </span>
+          <button id="chatbot-send" aria-label="Send message" type="button">
+            <span aria-hidden="true"> ➤ </span>
           </button>
         </div>
 
