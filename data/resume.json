@@ -1,0 +1,84 @@
+{
+  "personal_information": {
+    "name": "Ronald D. Javier",
+    "email": "rdjavier0303@gmail.com",
+    "portfolio": "https://rjavier03.github.io/rjavierporfolio"
+  },
+  "summary": "Experienced Software Engineer skilled in technical support, troubleshooting, software and web development, and code review. Proficient in WordPress customization and plugin development. Holds a Bachelor of Science in Computer Engineering, dedicated to delivering high-quality solutions.",
+  "experience": [
+    {
+      "job_title": "Software Engineer",
+      "company": "B2BE GSS Phils Inc.",
+      "start_date": "June 2024",
+      "end_date": "Present",
+      "responsibilities": [
+        "Designed and implemented programs for text format translation, including EDI (Electronic Data Interchange) and OCR (Optical Character Recognition) processes, enhancing automation, data integration, and processing efficiency.",
+        "Executed unit and integration testing to ensure code reliability, reducing bugs and follow-up requests post-deployment.",
+        "Acted as code reviewer and handled deployment, ensuring code quality, best practice compliance, and successful production releases.",
+        "Collaborated with shift team members on development tasks, providing technical guidance and hands-on coding support to maintain delivery efficiency."
+      ]
+    },
+    {
+      "job_title": "Associate Software Engineer",
+      "company": "B2BE GSS Phils Inc.",
+      "start_date": "August 2022",
+      "end_date": "June 2024",
+      "responsibilities": [
+        "Provided Level 2 technical support by identifying and resolving code-related issues in production systems.",
+        "Troubleshot application bugs and implemented targeted fixes, helping maintain system performance and stability.",
+        "Assisted in investigating and resolving data-related discrepancies, contributing to smoother system operations."
+      ]
+    },
+    {
+      "job_title": "Wordpress Developer",
+      "company": "iPhiTech IT and Digital Solutions",
+      "start_date": "November 2021",
+      "end_date": "August 2022",
+      "responsibilities": [
+        "Developed and maintained a WordPress-based website, ensuring smooth performance and a user-friendly experience.",
+        "Customized themes and plugins to meet client requirements, implementing new features to enhance functionality and engagement.",
+        "Created and deployed a reusable custom plugin used across multiple client websites, improving scalability and efficiency."
+      ]
+    },
+    {
+      "job_title": "Intern Developer",
+      "company": "iPhiTech IT and Digital Solutions",
+      "start_date": "September 2021",
+      "end_date": "November 2021",
+      "responsibilities": [
+        "Developed a fully functional website from scratch using WordPress and Shopify, ensuring seamless navigation and functioning pages.",
+        "Translated Figma layouts and PSD designs into working HTML websites, bringing visual concepts to life while maintaining code quality and responsiveness."
+      ]
+    }
+  ],
+  "skills_and_processes": [
+    "C++ (OOP, STL)",
+    "Visual Basic",
+    ".NET",
+    "C#",
+    "JavaScript",
+    "jQuery",
+    "Vanilla JavaScript",
+    "AJAX",
+    "PHP (Vanilla)",
+    "MySQL",
+    "GitHub",
+    "GitLab",
+    "Technical Support",
+    "Code Reviewer",
+    "Debugging",
+    "Agile Methodology",
+    "SDLC",
+    "Electronic Data Interchange (EDI)",
+    "OCR",
+    "Microsoft Office"
+  ],
+  "education": [
+    {
+      "degree": "Bachelor of Science in Computer Engineering",
+      "graduation_year": 2022,
+      "institution": "Dr. Yanga's College Inc.",
+      "location": "Wakas, Bocaue, Bulacan"
+    }
+  ]
+}
